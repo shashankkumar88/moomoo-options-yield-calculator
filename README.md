@@ -86,7 +86,7 @@ pip install pandas moomoo-api
 ### 3. Execution
 Ensure your Moomoo desktop app is open and running on local port `11113`, then launch the script:
 ```bash
-python totalpremiumv2.py
+python options-yield.py
 ```
 
 ---
