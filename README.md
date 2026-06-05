@@ -62,12 +62,12 @@ PORTFOLIO ANNUALIZED RATE:  22.70% (Based on \$63,000.00 Max Capital Allocated)
 ### Per-Ticker Annualized Return
 To calculate return percentages based on actual trade duration, the script applies a standard Compounded Annual Growth Rate (CAGR) formula:
 
-$$\text{Annualized Return} = \left(1 + \frac{\text{Net Realised P\&L}}{\text{Max Collateral Blocked}}\right)^{\frac{365.25}{\text{Holding Days}}} - 1$$
+$$\text{Annualized Return} = \left(1 + \frac{\text{Net Realised P\_L}}{\text{Max Collateral Blocked}}\right)^{\frac{365.25}{\text{Holding Days}}} - 1$$
 
 ### Portfolio-Wide Annualized Rate
 The script avoids averaging individual ticker percentages. Instead, it aggregates concurrent peak locked collateral relative to total YTD time elapsed:
 
-$$\text{Portfolio Rate} = \left(1 + \frac{\text{Grand Total Realised P\&L}}{\text{Cumulative Peak Portfolio Collateral}}\right)^{\frac{365.25}{\text{YTD Days Elapsed}}} - 1$$
+$$\text{Portfolio Rate} = \left(1 + \frac{\text{Grand Total Realised P\_L}}{\text{Cumulative Peak Portfolio Collateral}}\right)^{\frac{365.25}{\text{YTD Days Elapsed}}} - 1$$
 
 ---
 
